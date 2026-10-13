@@ -7,14 +7,12 @@ Alles läuft offline auf deinem Rechner – keine Cloud, keine Uploads nach auss
 ## Start
 
 ```bash
-cd ~/Hslu/Ollama
-./setup.sh               # einmalig, NUR ausserhalb des Firmen-VPN (PyPI ist im VPN blockiert)
+./setup.sh               # einmalig
 ./run.sh                 # → http://localhost:8501
 ```
 
 Voraussetzungen: `ollama serve` läuft, `ffmpeg` installiert (`brew install ffmpeg`).
-Die Python-Abhängigkeiten (`requirements.txt`) müssen **ohne Firmen-VPN** installiert werden,
-da PyPI im VPN blockiert ist.
+Die Python-Abhängigkeiten (`requirements.txt`) müssen installiert werden.
 
 Selbsttest ohne UI:
 
