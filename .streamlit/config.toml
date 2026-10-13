@@ -1,0 +1,17 @@
+# Streamlit-Konfiguration fuer den Study Hub.
+
+[server]
+# Vorlesungsaufzeichnungen sind gross (1-2 GB bei Bildschirmaufnahmen).
+# Das Limit gilt NUR fuer den Browser-Upload und hat nichts mit dem
+# Kontextfenster des Modells zu tun (ein 90-Min-Transkript sind ~150 KB Text).
+# Noch schonender: im Material-Tab den Reiter "Lokale Datei" nutzen –
+# dann wird nichts durch den Browser geschleust.
+maxUploadSize = 4096
+maxMessageSize = 4096
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+

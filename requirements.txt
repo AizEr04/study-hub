@@ -1,0 +1,17 @@
+# --- Core ---
+streamlit>=1.38
+requests>=2.32
+
+# --- Dokument-Extraktion ---
+pypdf>=4.3            # PDF
+python-pptx>=1.0      # PowerPoint
+python-docx>=1.1      # Word
+beautifulsoup4>=4.12  # HTML
+
+# --- Transkription (ASR) ---
+# faster-whisper laeuft auf Apple Silicon CPU (int8) deutlich schneller als openai-whisper.
+faster-whisper>=1.0
+
+# --- Optional, verbessert die Token-Schaetzung ---
+tiktoken>=0.7
+
